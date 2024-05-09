@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <SectionInner>
       <div className="my-20">
-        <h2>Projects</h2>
+        <h2 className="mb-20">Projects</h2>
         <div>
           <Carousel>
             <Project

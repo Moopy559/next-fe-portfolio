@@ -17,7 +17,7 @@ export default function Carousel({ children }: CarouselProps) {
       {childArray.length > 0 && (
         <Swiper
           spaceBetween={50}
-          slidesPerView={3.5}
+          slidesPerView={2.5}
           modules={[Pagination]}
           pagination
         >

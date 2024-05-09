@@ -5,7 +5,7 @@ export default function Skills() {
     <SectionInner>
       <div className="my-20">
         <div>
-          <h2>Skills</h2>
+          <h2 className="mb-20">Skills</h2>
         </div>
         <div className="grid grid-cols-3 gap-y-8 text-3xl">
           <h4>HTML</h4>
