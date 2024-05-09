@@ -20,6 +20,12 @@ const config: Config = {
         pink: "#fc5fcf",
         hotPink: "#f60469",
       },
+      textDecorationColor: {
+        hotPink: "#f60469",
+      },
+      borderColor: {
+        hotPink: "#f60469",
+      },
     },
   },
   plugins: [],

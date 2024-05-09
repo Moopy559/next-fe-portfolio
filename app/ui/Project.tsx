@@ -2,7 +2,7 @@ import Image from "next/image";
 
 interface ProjectProps {
   image: string;
-  skills: [];
+  skills: Array<string>;
   children: React.ReactNode;
   title: string;
   liveSite: string;
@@ -19,7 +19,7 @@ export default function Project({
 }: ProjectProps) {
   return (
     <div>
-      <Image src={image} alt={title} />
+      <Image src={image} alt={title} width={610} height={5} />
       <h3>{title}</h3>
       <a href={liveSite}>View Live Site</a>
       <a href={codeSite}>View Code</a>

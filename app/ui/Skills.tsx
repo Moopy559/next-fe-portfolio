@@ -3,11 +3,11 @@ import SectionInner from "./SectionInner";
 export default function Skills() {
   return (
     <SectionInner>
-      <div>
+      <div className="my-20">
         <div>
           <h2>Skills</h2>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 gap-y-8 text-3xl">
           <h4>HTML</h4>
           <h4>React</h4>
           <h4>Figma</h4>
