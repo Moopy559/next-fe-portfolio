@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Carousel from "./Carousel";
 import Project from "./Project";
 import SectionInner from "./SectionInner";
@@ -16,7 +17,6 @@ export default function Projects() {
               skills={["HTML", "CSS", "JS"]}
               image="/img/room-homepage.webp"
             >
-              {" "}
               A modern responsive homepage utilising grid and flex layouts with
               an interactive slider that updates the text and image content. If
               viewed on a mobile device, the user is also presented with an
@@ -33,7 +33,7 @@ export default function Projects() {
               Dynamic pricing components that are controlled by a toggle switch.
               The switch updates the text content between 'monthly' and 'annual'
               pricing plans. Also features a responsive design that adjusts the
-              layout based on screen size.{" "}
+              layout based on screen size.
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/weather-app"
@@ -44,7 +44,7 @@ export default function Projects() {
             >
               A small weather app that draws from a Weather API to allow the
               user to search for weather conditions across different parts of
-              the world.{" "}
+              the world.
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/calculator-app-main"
@@ -54,7 +54,7 @@ export default function Projects() {
               image="/img/calculator.webp"
             >
               A straightforward and mobile-responsive calculator built with
-              vanilla javascript.{" "}
+              vanilla javascript.
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/work-portfolio"
@@ -67,7 +67,7 @@ export default function Projects() {
               that showcases my other skillsets (animation, 3D rendering, video
               production, graphic design). It includes an image gallery that
               allows the user to click on an image to view it in a larger size
-              as an overlay.{" "}
+              as an overlay.
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/admin-dashboard"
@@ -77,7 +77,7 @@ export default function Projects() {
               image="/img/admin-dashboard.webp"
             >
               A simple admin dashboard to practice using a combination of grid
-              and flex layouts.{" "}
+              and flex layouts.
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/fem-interactive-rating-component"
@@ -88,7 +88,7 @@ export default function Projects() {
             >
               This component uses hover states and JS to allow the user to
               submit a rating. Upon submission, they are then presented with a
-              second screen that confirms their rating.{" "}
+              second screen that confirms their rating.
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/ecommerce-product-page-main"
@@ -101,7 +101,7 @@ export default function Projects() {
               multiple quantities of the shoe product and place them in a cart.
               They can then also click on the shopping cart icon to view a
               summary of their cart or clear the items. The site also features
-              an interactive overlay menu.{" "}
+              an interactive overlay menu.
             </Project>
           </Carousel>
         </div>
