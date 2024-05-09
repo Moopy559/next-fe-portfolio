@@ -65,13 +65,9 @@ export default function Projects() {
             >
               This was the first version of my portfolio and also includes work
               that showcases my other skillsets (animation, 3D rendering, video
-              production, graphic design). This site features both my
-              professional work and also miscellaneous artwork and animations
-              that I do for fun. It includes an image gallery that allows the
-              user to click on an image to view it in a larger size as an
-              overlay. I also intentionally coded the gallery so that I can add
-              or remove images at any time or display them in any order and the
-              logic driving the layout and interactions will still work.{" "}
+              production, graphic design). It includes an image gallery that
+              allows the user to click on an image to view it in a larger size
+              as an overlay.{" "}
             </Project>
             <Project
               codeSite="https://github.com/Moopy559/admin-dashboard"

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --swiper-theme-color: #f60469 !important;
+  --swiper-pagination-bullet-inactive-color: #fc5fcf !important;
+}
+
 * {
   /* outline: solid 1px red; */
 }
@@ -25,4 +30,9 @@ h2 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
